@@ -1,0 +1,125 @@
+#logo{
+  margin: 0px;
+
+}
+
+.kategoriler_buton{
+
+  position:absolute;
+  left:230px;
+  top:30px;
+  border-bottom: 1px;
+  
+
+}
+
+.kitap-saticilari{
+
+  position:absolute;
+  left:350px;
+  top:30px;
+  
+}
+
+.kayit-giris-paneli{
+
+  position:absolute;
+  left:480px;
+  top:11px;
+  
+
+}
+
+.bana-ozel-buton{
+
+  position:absolute;
+  left:750px;
+  top:30px;
+
+}
+
+.sepetim-buton{
+
+  position:absolute;
+  left:840px;
+  top:30px;
+
+}
+
+#head-column1{
+  position:absolute;
+  left:210px;
+  top:0px;
+  border-left: 1px solid #3d3c3b;
+  height: 69px;
+
+}
+
+#head-column2{
+  position:absolute;
+  left:330px;
+  top:0px;
+  border-left: 1px solid #3d3c3b;
+  height: 69px;
+
+}
+
+#head-column3{
+  position:absolute;
+  left:465px;
+  top:0px;
+  border-left: 1px solid #3d3c3b;
+  height: 69px;
+
+}
+
+.head-deadline{
+width: 100%;
+
+}
+
+.head-logo-kategory-satici-banaozel-sepetim{
+  
+   position:relative;
+   top:0px;
+   left: 25%;
+   width:900px;
+  
+}
+
+.arama-bolumu{
+position: relative;
+width: 100%;
+top: -80px;
+background-color: red;
+
+
+}
+
+#kelime{
+  position:absolute;
+   top:90px;
+   left: 25%;
+  height: 35px;
+  width: 800px;
+ 
+}
+
+#ARA-BUTON
+{
+  position:absolute;
+   top:90px;
+   left: 67.5%;
+  height: 40px;
+  width: 60px;
+  
+}
+
+
+.kitaplar-kategorisi{
+  position:absolute;
+  top:200px;
+  left: 25%;
+ 
+
+}
