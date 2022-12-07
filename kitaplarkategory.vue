@@ -1,31 +1,31 @@
 <template>
-   <div class="kitaplar-kategorisi"><h4>Kitaplar</h4>
+   <div class="kitaplar-kategorisi"><h4 style="color:#931818">Kitaplar</h4>
                
                <div id="app">
          
                  <ul>
-                                   <li><a   href="" title="Bilim ve Teknik Kitapları">{{booktype1}}</a></li>
-                                   <li><a   href="" title="Çizgi Roman Kitapları">{{booktype2}}</a></li>
-                                   <li><a   href="" title="Çocuk Kitapları">{{booktype3}}</a></li>
-                                   <li><a   href="" title="Dini Kitaplar">{{booktype4}}</a></li>
-                                   <li><a   href="" title="Edebiyat Kitapları">{{booktype5}}</a></li>
-                                   <li><a   href="" title="Ekonomi ve İş Dünyası Kitapları">{{booktype6}}</a></li>
-                                   <li><a   href="" title="Felsefe Kitapları">{{booktype7}}</a></li>
-                                   <li><a   href="" title="Hukuk Kitapları">{{booktype8}}</a></li>
-                                   <li><a   href="" title="Osmanlıca Kitaplar">{{booktype9}}</a></li>
-                                   <li><a   href="" title="Referans Kitaplar">{{booktype10}}</a></li>
-                                   <li><a   href="" title="Sağlık Kitapları">{{booktype11}}</a></li>
-                                   <li><a   href="" title="Sanat Kitapları">{{booktype12}}</a></li>
-                                   <li><a   href="" title="Sınav ve Ders Kitapları">{{booktype13}}</a></li>
-                                   <li><a   href="" title="Spor Kitapları">{{booktype14}}</a></li>
-                                   <li><a   href="" title="Tarih Kitapları">{{booktype15}}</a></li>
-                                   <li><a   href="" title="Siyaset Kitapları">{{booktype16}}</a></li>
-                                   <li><a   href="" title="Çeşitli Kitaplar">{{booktype17}}</a></li>
+                                   <li><a style="color: #5b4a43;;text-decoration: none;"  href="" title="Bilim ve Teknik Kitapları">{{booktype1}}</a></li>
+                                   <li><a style="color:#5b4a43;text-decoration: none;"  href="" title="Çizgi Roman Kitapları">{{booktype2}}</a></li>
+                                   <li><a style="color:#5b4a43;text-decoration: none;"  href="" title="Çocuk Kitapları">{{booktype3}}</a></li>
+                                   <li><a style="color:#5b4a43;text-decoration: none;"  href="" title="Dini Kitaplar">{{booktype4}}</a></li>
+                                   <li><a style="color:#5b4a43;text-decoration: none;"  href="" title="Edebiyat Kitapları">{{booktype5}}</a></li>
+                                   <li><a style="color:#5b4a43;text-decoration: none;"  href="" title="Ekonomi ve İş Dünyası Kitapları">{{booktype6}}</a></li>
+                                   <li><a style="color:#5b4a43;text-decoration: none;"  href="" title="Felsefe Kitapları">{{booktype7}}</a></li>
+                                   <li><a style="color:#5b4a43;text-decoration: none;"  href="" title="Hukuk Kitapları">{{booktype8}}</a></li>
+                                   <li><a style="color:#5b4a43;text-decoration: none;"  href="" title="Osmanlıca Kitaplar">{{booktype9}}</a></li>
+                                   <li><a style="color:#5b4a43;text-decoration: none;"  href="" title="Referans Kitaplar">{{booktype10}}</a></li>
+                                   <li><a style="color:#5b4a43;text-decoration: none;"  href="" title="Sağlık Kitapları">{{booktype11}}</a></li>
+                                   <li><a style="color:#5b4a43;text-decoration: none;"  href="" title="Sanat Kitapları">{{booktype12}}</a></li>
+                                   <li><a style="color:#5b4a43;text-decoration: none;"  href="" title="Sınav ve Ders Kitapları">{{booktype13}}</a></li>
+                                   <li><a style="color:#5b4a43;text-decoration: none;"  href="" title="Spor Kitapları">{{booktype14}}</a></li>
+                                   <li><a style="color:#5b4a43;text-decoration: none;"  href="" title="Tarih Kitapları">{{booktype15}}</a></li>
+                                   <li><a style="color:#5b4a43;text-decoration: none;"  href="" title="Siyaset Kitapları">{{booktype16}}</a></li>
+                                   <li><a style="color:#5b4a43;text-decoration: none;"  href="" title="Çeşitli Kitaplar">{{booktype17}}</a></li>
                                  </ul>
              
                </div>
-                         <h4>Dergiler</h4>
-                         <h4>Sanat & Koleksiyon</h4>
+                         <h4 style="color:#931818">Dergiler</h4>
+                         <h4 style="color:#931818">Sanat & Koleksiyon</h4>
                         </div>
 </template>
 <script>
@@ -80,12 +80,14 @@ ul
         list-style-type: none;
         padding-left: 0;
         margin-left: 15px;
+        
 }
 
 li:before {
     content: "\25b8";
+    color: #931818;
     position: relative;
     left: -2px;
-    color: black;}
+}
   
 </style>

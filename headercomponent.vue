@@ -1,21 +1,32 @@
-<script setup>
-
+<script>
+import nadirkitaplogo from '/public/logo.svg'
+import Dropdown from './Dropdown.vue';
+export default {
+        data(){
+            return {
+                imagelogo: nadirkitaplogo
+            };
+        },
+        components: {Dropdown}
+    }
 </script>
 
 <template>
  <div class="head-logo-kategory-satici-banaozel-sepetim">
-    <h1  id="logo"><a href="https://www.nadirkitap.com" title="İkinci el kitap, yeni kitap, dergi, efemera"><img src="https://static.nadirkitap.com/img/logo.svg"  width="190px" height="51px"></a></h1>
+    <h1  id="logo"><a  href="https://www.nadirkitap.com" title="İkinci el kitap, yeni kitap, dergi, efemera"><img src="/public/logo.svg" alt="Nadir"></a></h1>
         <div id="head-column1"></div>
-        <div id="home"><button  v-on:click="showKategories" class="kategoriler_buton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kategoriler</button></div>
+        <div id="home"><a href="" style="color: #63b5ea;text-decoration: none;"  class="kategoriler_buton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kategoriler 	
+&#9660;</a></div>
         <div id="head-column2"></div>
-        <div class="kitap-saticilari"><a  href="" title="Online sahaflar, ikinci el kitap satıcıları, kitap dükkanları">Kitap Satıcıları</a></div>
+        <div class="kitap-saticilari"><a  href="" style="color:#63B5EA;text-decoration: none;" title="Online sahaflar, ikinci el kitap satıcıları, kitap dükkanları">Kitap Satıcıları</a></div>
         <div id="head-column3"></div>
-        <div class="kayit-giris-paneli"><h4>Hoşgeldiniz,<a href="">Kayıt Ol </a>|<a href=""> Giriş Yap</a></h4></div>
-        <button class="bana-ozel-buton" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Bana Özel <span class="caret"></span></button>
+        <div class="kayit-giris-paneli"><h4>Hoşgeldiniz,<a style="color: #63b5ea;text-decoration: none;" href="">Kayıt Ol </a>|<a style="color: #63b5ea;text-decoration: none;" href=""> Giriş Yap</a></h4></div>
+      <Dropdown/>
           <hr class="head-deadline">
-        <button class="sepetim-buton" href="">Sepetim</button>
+        <button class="sepetim-buton" href=""> 🛒Sepetim (0)</button>
         <br class="br-cizgi"/>
+
+        
 </div>
         
 </template>
@@ -23,9 +34,9 @@
 <style>
 #logo{
 position: absolute;
- display: flex;
-justify-content: center;
   margin: 0px;
+  height: 100px;
+  width: 200px;
 
 }
 
@@ -56,19 +67,13 @@ justify-content: center;
 
 }
 
-.bana-ozel-buton{
-
-  position:absolute;
-  left:750px;
-  top:30px;
-
-}
-
 .sepetim-buton{
 
   position:absolute;
-  left:827px;
+  left:862px;
   top:30px;
+  height:22px;
+  width: 120px;
 
 }
 
